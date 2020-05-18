@@ -1,0 +1,31 @@
+{
+  "name": "Wikipedia 台灣正體",
+  "browser_action": {
+    "default_title": "Wikipedia 台灣正體"
+  },
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "web_accessible_resources": [],
+  "content_security_policy": "script-src 'self'; object-src 'self';",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "http://zh.wikipedia.org/*",
+    "https://zh.wikipedia.org/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "wikipedia-tw-extension@itsze.ro"
+    }
+  }
+}
