@@ -8,5 +8,5 @@ done
 
 echo "--> Packaging to wikipedia-tw.xpi"
 rm wikipedia-tw-redirector.xpi /tmp/wikipedia-tw-redirector.xpi
-zip /tmp/wikipedia-tw-redirector.xpi *
+zip /tmp/wikipedia-tw-redirector.xpi logo.svg logo*.png background.js manifest.json
 mv /tmp/wikipedia-tw-redirector.xpi .
