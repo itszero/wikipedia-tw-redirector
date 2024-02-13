@@ -12,7 +12,9 @@
     "webRequest",
     "webRequestBlocking",
     "http://zh.wikipedia.org/*",
-    "https://zh.wikipedia.org/*"
+    "https://zh.wikipedia.org/*",
+    "http://zh.m.wikipedia.org/*",
+    "https://zh.m.wikipedia.org/*"
   ],
   "background": {
     "scripts": ["background.js"],
